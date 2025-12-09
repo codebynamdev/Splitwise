@@ -2,10 +2,14 @@
 
 Folder Structure: 
 splitwise/
+
 │
 ├── model/
+
 │   ├── User.java
+
 │   ├── Group.java
+
 │   ├── Expense.java
 │   ├── Split.java
 │   ├── EqualSplit.java
