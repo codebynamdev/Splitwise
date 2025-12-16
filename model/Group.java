@@ -16,4 +16,20 @@ public class Group {
         members.add(user);
         return;
     }
+
+    public int getGroupId() {
+        return groupId;
+    }
+
+    public String getGroupName() {
+        return groupName;
+    }
+
+    public List<User> getMembers() {
+        return members;
+    }
+
+    public List<Expense> getExpenses() {
+        return expenses;
+    }
 }
