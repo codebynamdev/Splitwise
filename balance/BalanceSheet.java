@@ -7,7 +7,9 @@ import java.util.Map;
 
 public class BalanceSheet {
     private Map<User, Map<User, Double>>balances;
-
+    public BalanceSheet() {
+        this.balances = new HashMap<>();
+    }
     public Map<User, Map<User, Double>> getBalances() {
         return balances;
     }
